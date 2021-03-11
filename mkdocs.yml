@@ -1,0 +1,8 @@
+site_name: "Testing SSR Template"
+site_description: "Checking functionality of Backstage templating"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Testing SSR Template"
+  description: "Checking functionality of Backstage templating"
+  annotations:
+    github.com/project-slug: MatthiasScholzTW/demo_backstage_ssr
+    backstage.io/techdocs-ref: url:https://github.com/MatthiasScholzTW/demo_backstage_ssr
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "MatthiasScholzTW"
